@@ -1,29 +1,41 @@
 # Space Invaders Copy
 
 ## Overview
-Space Invaders Copy is a Python-based recreation of the classic arcade game Space Invaders. This project is focused on the survival of a spaceship defending Earth, controlled by the user. The spaceship must fend off attacks from aliens and protect the planet.
+Space Invaders Copy is a Python-based recreation of the classic arcade game Space Invaders. This project emphasizes the survival of a spaceship, controlled by the user, as it defends Earth against alien invasions.
 
 ## Features
-- **Alien Attacks**: Aliens spawn at random locations and move towards the spaceship at varying speeds.
-- **Spaceship Control**: Use left and right arrow keys to control the movement of the spaceship.
-- **Missile Firing**: The space bar is used to shoot missiles at the aliens.
-- **Health Bar**: Indicates the remaining health of the spaceship. The game ends when the health bar is depleted.
-- **Score Keeping**: The game keeps track of the survival time as the player's score.
+- **Alien Attacks**: Randomly spawning aliens move toward the spaceship at varying speeds.
+- **Spaceship Control**: Navigate the spaceship using the left and right arrow keys.
+- **Missile Firing**: Use the space bar to shoot missiles at aliens.
+- **Health Bar**: Tracks the spaceship's health, with the game ending when health is depleted.
+- **Score Tracking**: Measures survival time, which serves as the player's score.
 
 ## Game Mechanics
-- **Enemy Creation**: Enemies are created and move down the screen towards the player.
-- **Missile Mechanics**: Missiles are fired by the player to destroy incoming enemies.
-- **Collision Detection**: The game detects collisions between missiles, the spaceship, and enemies.
-- **Game Over Conditions**: The game ends when the spaceship's health bar runs out or if too many aliens get past the spaceship.
+- **Enemy Creation**: Enemies are generated and descend toward the spaceship.
+- **Missile Mechanics**: Players fire missiles to eliminate approaching enemies.
+- **Collision Detection**: Interactions between missiles, the spaceship, and enemies are accurately detected.
+- **Game Over Conditions**: The game ends when the spaceship's health bar depletes or if too many aliens breach Earth's defenses.
 
 ## How to Run
-- Ensure you have Python and the necessary libraries installed (pygame, gamebox).
-- Clone the repository and navigate to the project directory.
-- Run `game.py` to start the game:
-  python game.py
+
+1. Ensure you have Python and the necessary libraries (`pygame`, `gamebox`) installed.
+2. Clone the repository and navigate to the project directory:
+   ```bash
+   git clone https://github.com/AkanMNdem/space-invaders-copy.git
+   cd space-invaders-copy
+   ```
+
+3. Run the game using:
+   ```bash
+   python game.py
+   ```
+
+## Technologies Used
+- **Python**: Core programming language for game logic and mechanics.
+- **Pygame & Gamebox**: Libraries used for graphics, input handling, and game physics.
 
 ## Note
-This project is a copy of the Space Invaders game for educational purposes. It serves as a demonstration of Python programming skills, particularly in game development and graphical user interface design.
+This project is a clone of Space Invaders created for educational purposes. It demonstrates programming skills in game development and graphical interfaces.
 
 ## Contributing
-This project is currently not open for external contributions as it is intended for educational demonstration.
+This project is not open for external contributions as it is intended solely for educational demonstration.
